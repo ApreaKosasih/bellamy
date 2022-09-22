@@ -11,29 +11,65 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Beauty UI component package for flutter
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Prebuild Theme and Custom Theme
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### Requirement
+
+dart `">=2.18.0 <3.0.0"` flutter `">=1.17.0"`
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+//Custom Theme
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+
+    //custom theme have default color or you can customize your own color
+
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: AppTheme.custom(primary: Colors.red),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+
+//or
+
+//Prebuild Theme you can use :
+// AppTheme.nature()
+// AppTheme.pastel()
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+
+    //prebuild theme have color default according to UI research
+
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: AppTheme.nature(),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
 ```
 
-## Additional information
+<!-- ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
+Tell users more about the package: where to find more information, how to
 contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+from the package authors, and more. -->
