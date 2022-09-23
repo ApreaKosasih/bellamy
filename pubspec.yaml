@@ -1,7 +1,7 @@
 name: bellamy
 description: Beauty UI component package for flutter
-version: 0.0.1
-homepage: https://github.com/ApreaKosasih/bellamy
+version: 0.0.2
+homepage: https://github.com/ApreaKosasih/bellamyUI
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
