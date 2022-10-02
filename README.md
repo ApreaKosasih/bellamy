@@ -21,7 +21,8 @@ Prebuild Theme and Custom Theme
 
 ### Requirement
 
-dart `">=2.18.0 <3.0.0"` flutter `">=1.17.0"`
+sdk `">=2.18.0 <3.0.0"`
+flutter `">=1.17.0"`
 
 ## Usage
 
