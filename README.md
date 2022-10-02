@@ -15,7 +15,8 @@ Beautiful UI components, Over 500+ professionally designed, fully responsive, yo
 
 ## Features
 
-Markup : - Pre-build Theme and Customize it - Pre-build UI Component and Customize it
+- Pre-build Theme and Customize it
+- Pre-build UI Component and Customize it
 
 ## Getting started
 
