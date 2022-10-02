@@ -11,11 +11,11 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-Beauty UI component package for flutter
+Beautiful UI components, Over 500+ professionally designed, fully responsive, you can drop into your projects and customize it.
 
 ## Features
 
-Prebuild Theme and Custom Theme
+Markup : - Pre-build Theme and Customize it - Pre-build UI Component and Customize it
 
 ## Getting started
 
