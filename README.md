@@ -27,28 +27,10 @@ flutter `">=1.17.0"`
 
 ## Usage
 
-Custom Theme
-custom theme have default color or you can customize your own color
+#### Pre-build Theme
 
-```dart
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: AppTheme.custom(primary: Colors.red),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-```
-
-Pre-build Theme
 prebuild theme have color default according to UI research
+see docs for more pre-build theme
 
 ```dart
 
@@ -60,6 +42,28 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: AppTheme.nature(),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+
+```
+
+#### Custom Theme
+
+custom theme have default color or you can customize your own color
+see docs or example for more detail how to use custom theme
+
+```dart
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: AppTheme.custom(primary: Colors.red),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
