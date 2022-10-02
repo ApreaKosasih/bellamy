@@ -29,7 +29,7 @@ flutter `">=1.17.0"`
 
 #### Pre-build Theme
 
-prebuild theme have color default according to UI research
+prebuild theme have color default according to UI research\_\_
 see docs for more pre-build theme
 
 ```dart
@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
 
 #### Custom Theme
 
-custom theme have default color or you can customize your own color
+custom theme have default color or you can customize your own color\_\_
 see docs or example for more detail how to use custom theme
 
 ```dart
