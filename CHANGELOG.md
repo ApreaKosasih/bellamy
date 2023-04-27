@@ -9,3 +9,7 @@ update homepage link
 ## 0.0.3
 
 update example
+
+## 0.0.4
+
+add custom button

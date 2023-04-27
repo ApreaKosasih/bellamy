@@ -71,6 +71,20 @@ class MyApp extends StatelessWidget {
 
 ```
 
+#### Custom Button
+
+custom button widget use elevated button as base button
+
+```dart
+
+  AppButton(
+    onPressed: () {},
+    borderRadius: 48.0,
+    child: const Text("SUBMIT"),
+  ),
+
+```
+
 <!-- ## Additional information
 
 Tell users more about the package: where to find more information, how to
